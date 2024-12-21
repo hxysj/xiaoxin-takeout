@@ -1,0 +1,171 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/oders/oders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单"
+			}
+		},
+		{
+			"path" : "pages/coupon/coupon",
+			"style" : 
+			{
+				"navigationBarTitleText" : "优惠卷"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/commodity/commodity",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品详情页面"
+			}
+		},
+		{
+			"path" : "pages/classify/classify",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类页面",
+				"onReachBottomDistance": 10,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/shop/shop",
+			"style" : 
+			{
+				"navigationBarTitleText" : "店铺页面",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/cart/cart",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车"
+			}
+		},
+		{
+			"path" : "pages/payed/payed",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单结算",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/address/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的地址"
+			}
+		},
+		{
+			"path" : "pages/add-address/add-address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "编辑地址"
+			}
+		},
+		{
+			"path" : "pages/order-detail/order-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/collect/collect",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收藏"
+			}
+		},
+		{
+			"path" : "pages/comment/comment",
+			"style" : 
+			{
+				"navigationBarTitleText" : "评论页面",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/member/member",
+			"style" : 
+			{
+				"navigationBarTitleText" : "会员中心"
+			}
+		},
+		{
+			"path" : "pages/userInfo/userInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "black",
+		"selectedColor": "#1296db",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-h.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/coupon/coupon",
+				"text": "优惠卷",
+				"iconPath": "static/images/coupon.png",
+				"selectedIconPath": "static/images/coupon-h.png"
+			},
+			{
+				"pagePath": "pages/oders/oders",
+				"text": "订单",
+				"iconPath": "static/images/order.png",
+				"selectedIconPath": "static/images/order-h.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user-h.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+
+}

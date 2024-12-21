@@ -1,0 +1,8 @@
+export { useClassifyStore } from './modules/classify'
+export { usePosterStore } from './modules/poster'
+export { useShopsStore } from './modules/shops'
+export { useCartStore } from './modules/cart'
+export { useCouponStore } from './modules/coupon'
+export { useUserStore } from './modules/users'
+export { useOrderStore } from './modules/order'
+export { useCommentStore } from './modules/comment'

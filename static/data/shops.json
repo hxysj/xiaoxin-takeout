@@ -1,0 +1,76 @@
+{
+	"shopList":[
+		{
+			"id":54230,
+			"name":"港堡汉堡·炸鸡",
+			"area":"深圳市龙岗区虚拟路999号",
+			"phone":18823811104,
+			"openTime":"8:00-22:00",
+			"icon":"/static/images/shop/170751559.jpg",
+			"rate":4.0,
+			"cId":2,
+			"minPrice":15.0,
+			"packPrice":1.5,
+			"usecoupon":1,
+			"coordinate":{
+				"latitude": 39.909,
+				"longitude": 116.39742
+			},
+			"payed":100
+		},
+		{
+			"id":54321,
+			"name":"罗定肠粉",
+			"area":"深圳市龙岗区虚拟路999号",
+			"phone":18823811104,
+			"openTime":"8:00-22:00",
+			"icon":"/static/images/shop/512143125.jpg",
+			"rate":4.4,
+			"cId":3,
+			"minPrice":12.0,
+			"packPrice":0.5,
+			"usecoupon":0,
+			"coordinate":{
+				"latitude": 39.909,
+				"longitude": 116.39742
+			},
+			"payed":300
+		},
+		{
+			"id":54231,
+			"name":"汉堡王",
+			"area":"深圳市龙岗区虚拟路999号",
+			"phone":18823811104,
+			"openTime":"8:00-22:00",
+			"icon":"/static/images/shop/192312310.png",
+			"rate":3.0,
+			"cId":2,
+			"minPrice":20.0,
+			"packPrice":2.0,
+			"usecoupon":1,
+			"coordinate":{
+				"latitude": 39.909,
+				"longitude": 116.39742
+			},
+			"payed":180
+		},
+		{
+			"id":54232,
+			"name":"塔斯汀",
+			"area":"深圳市龙岗区虚拟路999号",
+			"phone":18823811104,
+			"openTime":"8:00-22:00",
+			"icon":"/static/images/shop/192312321.png",
+			"rate":2.5,
+			"cId":2,
+			"minPrice":15.0,
+			"packPrice":1.5,
+			"usecoupon":0,
+			"coordinate":{
+				"latitude": 39.909,
+				"longitude": 116.39742
+			},
+			"payed":200
+		}
+	]
+}
